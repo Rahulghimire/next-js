@@ -5,6 +5,7 @@ const Card = ({ children }: { children: React.ReactNode }) => {
     boxShadow: " 0 4px 8px rgba(0, 0, 0, 0.1)",
     overflow: "hidden",
     width: "300px",
+    height: "200px",
     margin: "20px",
   };
   return <div style={cardStyle}>{children}</div>;
